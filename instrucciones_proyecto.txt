@@ -1,0 +1,38 @@
+Proyecto inicial Senniors:
+
+1. Lo primero ha sido crear una BD SQLite llamada Senniors.db y en ella se ha generado una tabla llamada newsletter
+	* crear BD
+		>> sqlite3 Senniors.db
+
+2. Para crear la tabla y meter los datos del CSV he creado un script llamado db_manage.py
+	En este se crea la tabla si no existe, importa los datos del csv (previamente convertido del xlsx enviado) e imprime los datos que contiene dicha tabla
+
+	Esto también podría haberse hecho a través de comandos usando la consola:
+	CREATE TABLE newletter (
+		  name TEXT,
+		  email TEXT,
+		  birth_date DATE, 
+		  sennior_client BOOLEAN,
+		  subscripted_date DATE
+		);
+		
+	>> .separator ','
+	>> .import newsletter.csv newsletter
+
+3. Creamos el proyecto en el que vamos a desarrollar los endpoints:
+	
+	Hay un models.py que contiene la clase NewUser, con los campos indicados en la descripción de la prueba y
+	hay un main.py que contiene las operaciones api/rest: get y post. 
+	
+	* Para poder probar esto en local he usado el programa Swagger UI: 
+		http://127.0.0.1:8000/docs#/default/insert_new_users_newsletter__post
+	* También podemos hacerlo a traves del servidor levantado:
+		http://127.0.0.1:8000/newsletter/
+	* O con un postman al mismo servidor. Teniendo en cuenta que para el POST el body será:
+		{
+		  "name": "Marina",
+		  "email": "marina@marina.com",
+		  "birth_date": "1992-10-30",
+		  "sennior_client": "false",
+		  "subscripted_date": "2022-06-26"
+		}
