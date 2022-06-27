@@ -1,6 +1,4 @@
-# senniors_beginning
-
-PRUEBA TÉCNICA SENNIORS JUNIO 2022
+# PRUEBA TÉCNICA SENNIORS JUNIO 2022
 
 El objetivo de esta prueba es crear una API con dos endpoints para gestionar la suscripción a la newsletter de la empresa. 
 Uno para imprimir aquellos usuarios que ya están en la BD y otro para añadir nuevos. 
@@ -12,7 +10,7 @@ Endpoint POST:
 	Entrada: Usuario de tipo NewUser con las propiedades propuestas en la definición de la prueba.
 	Salida:  Si ha ido bien devuelve ese mismo usuario añadido. En caso de fallo saldrá un mensaje de error.
 	
-Setup:
+# Setup:
 
 Este repositorio depende de:
 	* sqlite3 como gestor de base de datos
@@ -28,9 +26,14 @@ Para arrancar el servidor utilizaremos el comando:
 	
 	Donde main es el contenedor de los endpoints y app es el instance de la clase FastAPI.
 	
-Formato del código: ????
+# Formato del código: 
 
-Obtención de datos: ??? Llamando a la url?
+????
 
-Testing: 
+# Obtención de datos: 
+
+??? Llamando a la url?
+
+# Testing: 
+
 	Creamos una prueba basada en test suit. 
