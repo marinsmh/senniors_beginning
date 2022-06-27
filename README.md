@@ -13,7 +13,7 @@ Endpoint POST:
 # Setup:
 
 Este repositorio depende de:
-	* sqlite3 como gestor de base de datos
+	- sqlite3 como gestor de base de datos
 		pip install sqlite3
 	* fastapi para las operaciones API/REST y Uvicorn para arrancar el servidor.
 		1. pip install fastapi
