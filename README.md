@@ -40,19 +40,18 @@ newsletter semanal con noticias de interés sobre cuidados y salud. Varios usuar
 **3. Insertar los usuarios ya subscritos en la DB con un script**
 
 **4. Desplegar en AWS para poder acceder desde cualquier dispositivo.**
-	
-Siendo la escritura también un proceso a través de queries utilizado un post:
-
-<div align="center">
-<img align="left" width="750" height="300" src="https://raw.githubusercontent.com/marinsmh/senniors_challenge/main/imgs/estructura_proyecto.png"/>
-</div>
 
 ## Operaciones
+
+Además he añadido una operación más con la que podemos borrar el contenido de la BD para limpiarla en caso de interesarnos.
 
 | Resource | Method | Input | Output |
 | :--- | :--- | :--- | :--- |
 | /newsletter | GET | - | List usuarios suscritos |
 | /newsletter | POST | newUser: {name, email, birth_date, sennior_client, suscription_date} | En caso de funcionar: el nuevo usuario suscrito. En caso de fallar: mensaje de error|
+| /newsletter | DELETE | - | Mensaje OK en caso de haber eliminado todo corrctamente|
+
+La estructura de Swagger UI:
 
 ## Setup
 
@@ -77,7 +76,6 @@ Para arrancar el servidor utilizaremos el comando:
 	python -m uvicorn main:app --reload
 	
 Donde main es el contenedor de los endpoints y app es el instance de la clase FastAPI.
-	
 
 ## Testing
 
