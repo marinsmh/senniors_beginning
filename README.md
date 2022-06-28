@@ -1,13 +1,14 @@
 
 <br>
 
-<img align="left" width="90" height="90" src="https://github.com/exercism/website-icons/blob/main/tracks/python.svg">
-<p vertical-align="middle"><h1>Exercism Python Track</h1></p>
+<img align="left" width="250" height="90" src="https://raw.githubusercontent.com/marinsmh/senniors_challenge/main/imgs/senniors_icon.png">
+<p vertical-align="middle"><h1>Senniors Python Challenge - June 2022</h1></p>
 
 <br>
 
+- [Objetivo](#objetivo)
 
-# SENNIORS CHALLENGE - JUNE 2022
+## Objetivo
 
 El objetivo de esta prueba es crear una API con dos endpoints para gestionar la suscripción a la newsletter de la empresa. 
 Uno para imprimir aquellos usuarios que ya están en la BD y otro para añadir nuevos. 
