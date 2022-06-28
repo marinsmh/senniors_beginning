@@ -1,9 +1,7 @@
 
 <br>
-
 <img align="left" width="250" height="90" src="https://raw.githubusercontent.com/marinsmh/senniors_challenge/main/imgs/senniors_icon.png"/>
 <p vertical-align="middle"><h1>Senniors Python Challenge - June 2022</h1></p>
-
 <br>
 
 - [Descripción de la prueba](#descripción-de-la-prueba)
@@ -51,7 +49,11 @@ Además he añadido una operación más con la que podemos borrar el contenido d
 | /newsletter | POST | newUser: {name, email, birth_date, sennior_client, suscription_date} | En caso de funcionar: el nuevo usuario suscrito. En caso de fallar: mensaje de error|
 | /newsletter | DELETE | - | Mensaje OK en caso de haber eliminado todo corrctamente|
 
-La estructura de Swagger UI:
+Las pruebas las realicé utilizando Swagger UI, su estructura de operaciones sería la siguiente:
+
+<br>
+<img align="left" src="https://raw.githubusercontent.com/marinsmh/senniors_challenge/main/imgs/swagger_struct.png"/>
+<br>
 
 ## Setup
 
