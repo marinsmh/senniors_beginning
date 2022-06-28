@@ -1,7 +1,7 @@
 
 <br>
 
-<img align="left" width="250" height="90" src="https://raw.githubusercontent.com/marinsmh/senniors_challenge/main/imgs/senniors_icon.png">
+<img align="left" width="250" height="90" src="https://raw.githubusercontent.com/marinsmh/senniors_challenge/main/imgs/senniors_icon.png"/>
 <p vertical-align="middle"><h1>Senniors Python Challenge - June 2022</h1></p>
 
 <br>
@@ -18,7 +18,7 @@ newsletter semanal con noticias de interés sobre cuidados y salud. Varios usuar
 
 ## Requerimientos 
 
-**1. Crear una API con dos endpoints:
+**1. Crear una API con dos endpoints:**
 
 	• POST /newsletter
 	
@@ -35,13 +35,20 @@ newsletter semanal con noticias de interés sobre cuidados y salud. Varios usuar
 	
 		- Devuelve la lista de usuarios subscritos.
 
-**2. Crear una DB para almacenar la información previa.
+**2. Crear una DB para almacenar la información previa.**
 
-**3. Insertar los usuarios ya subscritos en la DB con un script
+**3. Insertar los usuarios ya subscritos en la DB con un script**
 
-**4. Desplegar en AWS para poder acceder desde cualquier dispositivo.
+**4. Desplegar en AWS para poder acceder desde cualquier dispositivo.**
+	
+Siendo la escritura también un proceso a través de queries utilizado un post:
+
+<div align="center">
+<img align="left" width="750" height="300" src="https://raw.githubusercontent.com/marinsmh/senniors_challenge/main/imgs/estructura_proyecto.png"/>
+</div>
 
 ## Operaciones
+
 | Resource | Method | Input | Output |
 | :--- | :--- | :--- | :--- |
 | /newsletter | GET | - | List usuarios suscritos |
