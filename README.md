@@ -8,6 +8,8 @@
 - [Requerimientos](#requerimientos)
 - [Operaciones](#operaciones)
 - [Setup](#setup)
+- [Testing](#testing)
+- [AWS](#aws)
 
 ## Descripción de la prueba
 
