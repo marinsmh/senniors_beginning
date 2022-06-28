@@ -85,7 +85,8 @@ Creamos una prueba basada en test suit.
 
 ## AWS
 
-El paquete aws intenta proporcionar soporte para el uso de Amazon Web Services como S3 (almacenamiento), SQS (colas) y otros a los programadores de Haskell. El objetivo final es dar soporte a todos los servicios web.
-El concepto principal en aws es la Transacción, que corresponde a una única petición HTTP a los Servicios Web de Amazon. Una transacción consiste en una solicitud y una respuesta, que se asocian a través de la clase de tipo Transaction.
+Usamos Amazon Web Service para el despleigue de nuestro proyecto. El concepto principal en AWS es la Transacción, que corresponde a una única petición HTTP a los Servicios Web de Amazon. Una transacción consiste en una solicitud y una respuesta, que se asocian a través de la clase de tipo Transaction: 
 
+**AWS Instance**
 
+http://flask-env.eba-pxrp10ipm.us-east-2.marinsmhbeanstalk.com/
